@@ -4,8 +4,6 @@ import dotenv, { config } from 'dotenv';
 import roleRoute from './routes/role.js';
 import authRoute from './routes/auth.js';
 import userRoute from './routes/user.js';
-import groundRoute from './routes/ground.js';
-import matchRoute from './routes/match.js';
 import cookieParser from 'cookie-parser';
 import cors from 'cors';
 
@@ -26,8 +24,6 @@ app.use(cors({
 app.use('/api/role',roleRoute);
 app.use('/api/auth', authRoute);
 app.use('/api/user', userRoute);
-app.use('/api/ground', groundRoute);
-app.use('/api/match', matchRoute);
 
 
 //response handler
