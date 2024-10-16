@@ -1,2 +1,2 @@
-# cupf-api
+# Clark Marketplace auth api
  
